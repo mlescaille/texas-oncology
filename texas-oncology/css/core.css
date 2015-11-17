@@ -1,0 +1,396 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    color: #333;
+    background: #fff;
+    font: 14px/1.7 Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none;
+    position: relative;
+}
+input{
+    font: 100% Arial, Helvetica, sans-serif;
+    color: #333;
+    vertical-align: middle;
+}
+
+img{
+    border-style: none;
+    vertical-align: top;
+}
+article, footer{
+    display: block;
+}
+a{
+    color: #9a2f22;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin: 0 0 1.2em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.logo{
+    padding: 30px 15px 30px 35px;
+}
+
+.front-section{
+    overflow: hidden;
+    position: relative;
+    font-size: 24px;
+    line-height: 30px;
+    color: #503416;
+    margin-bottom: 53px;
+}
+.front-section h1{
+    color: #9a2F22;
+    margin: 0 0 20px;
+    line-height: 48px;
+}
+.front-section p{
+    margin: 0 0 15px;
+}
+
+.front-section img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+.front-section .front-image{
+    position: relative;
+}
+.front-section .text-div{
+    padding: 33px 30px 10px 85px;
+}
+
+.front-section .btn-holder .btn-default{
+    background-color: #9a2f22;
+    border-radius: 1%;
+/*    color: #9a2F22;*/
+
+}
+.front-section .btn-holder, .footer-links{
+    padding-top: 29px;
+    overflow: hidden;
+    list-style: none;
+}
+
+
+.front-section .btn-holder li{
+    padding: 0 0 15px;
+
+}
+.front-section .btn-holder a{
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 28px;
+    min-width: 325px;
+    height: auto;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: normal;
+}
+.front-section .text-hold{
+    position: absolute;
+    top: 0;
+    left:15px;
+    right: 15px;
+    bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.front-section .btn-holder a .glyphicon{
+    color: #efc63a;
+    font-size: 26px;
+    margin-right: 14px;
+    float: left;
+}
+
+.front-section .btn-holder a .btn-text{
+    overflow: hidden;
+    display: block;
+    color: white;
+}
+
+.front-image{
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    padding: 30px 15px 30px 35px;
+/*
+    margin-top: 55px;
+    padding-top: 1.5em;
+*/
+}
+.article{
+    position: relative;
+    display: block;
+}
+
+/*Intro section*/
+.intro{
+    overflow: hidden;
+    padding-bottom: 38px;
+    position: relative;
+}
+.intro .aside-text{
+    float: left;
+}
+.intro .aside-text p{
+    margin: 0 0 25px;
+}
+
+.intro .block{
+    padding: 7px 0 0;
+    font-size: 13px;
+    line-height: 18px;
+    float: right;
+    
+}
+
+.intro .block h2{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 0 0 3px;
+    font-weight: bold;
+}
+
+.intro .block a{
+    color: #333;
+}
+.intro .block p{
+    margin: 0;
+}
+
+.intro .block .img-box{
+    max-width: 170px;
+    margin: 0 0 10px;
+}
+
+.intro .block .img-box img{
+    width: 100%;
+}
+
+.intro .block img{
+    width: 100%;
+    height: auto;
+}
+.footer-links {
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -4px;
+}
+
+#footer{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+#footer > .container {
+	padding-top: 28px;
+	padding-bottom: 30px;
+}
+
+#footer p {
+	margin: 0;
+}
+
+.footer-links li {
+	position: relative;
+	font-size: 13px;
+	line-height: 17px;
+	display: inline-block;
+	vertical-align: top;
+	letter-spacing: normal;
+	padding-bottom: 9px;
+}
+
+.footer-links li + li {
+	padding-left: 20px;
+}
+
+.footer-links li + li:after {
+	position: absolute;
+	top: 2px;
+	left: 9px;
+	height: 12px;
+	background: #e5e5e5;
+	content: "";
+	width: 1px;
+}
+
+.footer-links li a {
+	color: #333;
+}
+
+@media only screen and (max-width:1200px){
+    .front-section{
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .front-section .text-div{
+        padding: 38px 20px 10px 30px;
+    }
+    .front-section h1{
+        font-size: 38px;
+        line-height: 38px;
+        margin: 0 0 10px;
+    }
+    .front-section p{  
+        margin: 0 0 10px;
+    }
+    .front-section .btn-holder a{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 7px 7px 5px;
+        min-width: 280px;
+    }
+    .front-section .btn-holder a .glyphicon{
+        font-size: 23px;
+        margin-right: 10px;
+    }
+}
+@media only screen and (max-width:1023px) {
+	html,
+	body {
+		height: auto;
+	}
+
+	.page {
+		overflow: hidden;
+		height: auto;
+	}
+
+	body {
+		font-size: 11px;
+		line-height: 15px;
+	}
+
+	#wrapper {
+		display: block;
+		height: auto;
+	}
+
+	#header {
+		padding-top: 14px;
+		padding-bottom: 15px;
+	}
+
+	.logo {
+		width: 251px;
+		height: auto;
+	}
+
+	.front-section {
+		font-size: 15px;
+		line-height: 19px;
+		margin-bottom: 34px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.front-section .text-div {
+		padding: 14px 20px 10px 64px;
+	}
+
+	.front-section h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	.front-section .btn-holder {
+		padding-top: 17px;
+	}
+
+	.front-section .btn-holder li {
+		padding: 0 0 10px;
+	}
+
+	.front-section .btn-holder a {
+		font-size: 11px;
+		line-height: 14px;
+		min-width: 202px;
+	}
+
+	.front-section .btn-holder a .icon {
+		font-size: 17px;
+	}
+
+	.intro {
+		padding-bottom: 44px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.intro:after {
+		left: 22px;
+		right: 22px;
+	}
+
+	.intro .intro-text p {
+		margin: 0 0 15px;
+	}
+
+	.intro .block {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	.intro .block h2 {
+		font-size: 11px;
+		line-height: 13px;
+		margin: 0 0 3px;
+	}
+
+	.intro .block .img-box {
+		margin: 0 0 6px;
+	}
+    
+    #footer {
+		font-size: 10px;
+		line-height: 13px;
+		display: block;
+		height: auto;
+	}
+
+	#footer > .container {
+		padding-top: 17px;
+		padding-bottom: 15px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.footer-links li {
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	.footer-links li + li {
+		padding-left: 12px;
+	}
+
+	.footer-links li + li:after {
+		height: 8px;
+		top: 4px;
+		left: 5px;
+	}
+    
+    
+}
+

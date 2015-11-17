@@ -1,0 +1,57 @@
+Accordion
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="panel-group">
+            <div class="panel panel-default">
+                <a class="panel-default" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                    My Story
+                    </h4>
+                </div>
+                </a>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    Content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <a class="panel-default" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                    My Skills
+                    </h4>
+                </div>
+                </a>                            
+                <div id="collapseTwo" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                    Content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <a class="panel-default" data-toggle="collapse" data-parent="#accordion3" href="#collapseThree">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                    My Ambition
+                    </h4>
+                </div>
+                </a>                            
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                    content
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
