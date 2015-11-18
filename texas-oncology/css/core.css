@@ -201,6 +201,7 @@ button:hover{
     width: 100%;
     height: auto;
 }
+/*Map section*/
 .map-holder{
     overflow: hidden;
     padding-bottom: 66px;
@@ -397,7 +398,7 @@ button:hover{
     padding-left: 20px;
 }
 .map .click a:after{
-    background: url(images/icon01.png) no-repeat;
+    background: url(../images/icon01.png) no-repeat;
     width: 16px;
     height: 16px;
     content: "";
@@ -405,6 +406,237 @@ button:hover{
     left: 0;
     top: 0;
 }
+/*Location section*/
+.location-details{
+    padding-top: 23px;
+    padding-right: 2px;
+}
+
+.location-details .filter{
+    overflow: hidden;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d2d2d2;
+    margin: 0 0 24px;
+}
+.location-details .filter .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    display: block;
+    margin: 0 0 13px;
+}
+.location-details .filter .select-location{
+    margin: 0 -29px;
+}
+.location-details .filter .select-location li{
+    font-size: 14px;
+    line-height: 17px;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: normal;
+    padding: 0 29px 15px;
+}
+
+.location-details .filter .select-location li.title-one{
+    background: url(../images/locator-bg-01.png) no-repeat 9px 1px no-repeat;
+}
+
+.location-details .filter .select-location li.title-two{
+    background: url(../images/locator-bg-02.png) no-repeat 9px 2px no-repeat;
+}
+.location-details .filter .select-location li.title-three{
+    background: url(../images/locator-bg-03.png) no-repeat 9px 2px no-repeat;
+}
+
+.location-details .filter .select-location a {
+    color: #333;
+    font-weight: bold;
+}
+
+.location-details .filter .select-location a.active,
+.location-details .filter .select-location a:hover {
+    text-decoration: none;
+    color: #9a2f22;
+}
+.location-panel .panel-group{
+    max-height: 550px !important;
+    overflow-y: auto;
+}
+
+.location-panel .panel{
+    border: 0;
+    position: relative;
+    border-radius: 0;
+    box-shadow: none;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+.location-panel .panel + .panel{
+    padding-top: 10px;
+    margin-top: 0;
+}
+.location-panel .panel + .panel:after{
+    background: #ccc;
+    height: 1px;
+    left: 35px;
+    right: 11px;
+    content: "";
+    position: absolute;
+    top: 0;
+}
+
+.location-panel .panel-heading {
+    background: none;
+    border: none;
+    padding: 0;
+}
+.location-panel .panel-title{
+    font-size: 14px;
+    line-height: 21px;
+    overflow: hidden;
+}
+.location-panel .panel-title a:hover{
+    text-decoration: none;
+    color: #9a2f22;
+}
+.location-panel .panel-title a:focus,
+.location-panel .panel-title a:active{
+    outline: none;
+    text-decoration: none;
+    outline-offset: 0;
+}
+.location-panel .panel-title .number{
+    line-height: 26px;
+    text-align: center;
+    float: left;
+    vertical-align: middle;
+    width: 23px;
+    margin-right: 10px;
+    font-size: 13px;
+
+}
+.location-panel .panel-title .orange{
+    color: #333;
+    width: 23px;
+    height: 29px;
+    background: url(../images/locator-bg.png) no-repeat 0 0;
+    
+}
+.location-panel .panel-title a{
+    font-weight: bold;
+}
+.location-panel .col{
+    float: left;
+    width: 50%;
+    padding: 0;
+}
+/*.location-panel .panel-default{
+    overflow-y: hidden;
+
+}*/
+.location-panel .panel-body{
+    border-top: none !important;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+    padding: 0 23px 0 35px;
+}
+.location-panel .panel-body .column-wrap{
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+.location-panel .panel-body address{
+    line-height: 17px;
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+.location-panel .panel-body .tel-link a{
+    color: #333;
+    text-decoration: none;
+}
+.location-panel span{
+    display: block;
+}
+/*#Four columns section*/
+.four-columns{
+    background-color: #309BC0;
+    color: #fff;
+    padding: 45px 0 38px;
+    font-size: 13px;
+    line-height: 18px;
+
+}
+.four-columns .col{
+    padding-bottom: 20px;
+}
+.four-columns h3{
+    margin: 0 0 10px;
+    color: #fff;
+    line-height: 28px;
+    font-size: 24px;
+}
+
+.four-columns h3 a{
+    color: #fff;
+}
+.four-columns p{
+    margin: 0 0 5px;
+}
+.four-columns .more a{
+    color: #fff;
+    position: relative;
+    padding-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.four-columns .more a:after{
+    right: 0;
+    top: 3px;
+    content: "";
+    position: absolute;
+    background: url("../images/sprite.png") no-repeat 0 0;
+    width: 7px;
+    height: 12px;
+    overflow: hidden;
+    text-indent: -9999px;
+    display: block;
+}
+/*two columns section*/
+.two-columns{
+    background: #f2f0ed;
+    padding: 59px 0 48px;
+    font-size: 13px;
+    line-height: 18px;
+    overflow: hidden;
+}
+.two-columns .block{
+    padding-bottom: 20px;
+}
+.two-columns .img-box{
+    padding-top: 3px;
+    max-width: 270px;
+}
+.two-columns .img-box img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.two-columns h4{
+    margin: 0 0 11px;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000;
+}
+.two-columns a{
+    color: #000;
+}
+
+
+/*#Footer section*/
 
 #footer{
     font-size: 13px;
@@ -454,6 +686,21 @@ button:hover{
 	color: #333;
 }
 
+@media only screen and (min-width: 1025px) {
+    .tel-link {
+        display: inline-block;
+    }
+
+    .tel-link a {
+        cursor: default;
+        pointer-events: none;
+    }
+
+    .tel-link a:hover {
+        text-decoration: none;
+    }
+}
+
 @media only screen and (max-width:1200px){
     .front-section{
         font-size: 18px;
@@ -479,6 +726,113 @@ button:hover{
     .front-section .btn-holder a .glyphicon{
         font-size: 23px;
         margin-right: 10px;
+    }
+    .map .locations li.l1 {
+        left: 70%;
+    }
+
+    .map .locations li.l2 {
+        left: 51.4%;
+    }
+
+    .map .locations li.l3 {
+        left: 57%;
+    }
+
+    .map .locations li.l4 {
+        left: 57%;
+    }
+
+    .map .locations li.l5 {
+        left: 50%;
+    }
+
+    .map .locations li.l6 {
+        left: 39%;
+    }
+
+    .map .locations li.l7 {
+        left: 56%;
+    }
+
+    .map .locations li.l8 {
+        left: 44.5%;
+    }
+
+    .map .locations li.l9 {
+        left: 32%;
+    }
+
+    .map .locations li.l10 {
+        left: 63%;
+    }
+
+    .map .locations li.l11 {
+        left: 53.4%;
+    }
+
+    .map .locations li.l12 {
+        left: 51%;
+    }
+
+    .map .locations li.l13 {
+        left: 50.3%;
+    }
+
+    .map .locations li.l14 {
+        left: 51%;
+    }
+
+    .map .locations li.l15 {
+        left: 48.1%;
+    }
+
+    .map .locations li.l16 {
+        left: 36%;
+    }
+
+    .map .locations li.l17 {
+        left: 44.5%;
+    }
+
+    .map .locations li.l18 {
+        left: 41%;
+    }
+
+    .map .locations li.l19 {
+        left: 53.5%;
+    }
+
+    .map .locations li.l20 {
+        left: 59.6%;
+    }
+
+    .map .locations li.l21 {
+        left: 67%;
+    }
+
+    .map .locations li.l22 {
+        left: 45.1%;
+    }
+
+    .map .locations li.l23 {
+        left: 47.6%;
+    }
+
+    .map .locations li.l24 {
+        left: 36.2%;
+    }
+
+    .map .click {
+        right: 5%;
+    }
+
+    .location-details .filter .select-location {
+        margin: 0 -20px 0 -30px;
+    }
+
+    .location-details .filter .select-location li {
+        padding: 0 20px 15px 30px;
     }
 }
 @media only screen and (max-width:1023px) {
@@ -593,6 +947,193 @@ button:hover{
     .map-wrap h4{
         font-size: 11px;
         line-height: 13px;
+    }
+
+    .map .locations li {
+        width: 14px;
+        height: 18px;
+    }
+
+    .map .locations li a {
+        font-size: 9px;
+        line-height: 18px;
+    }
+
+    .map .locations li.blue a {
+        background: url(../images/locator-bg-02.png) no-repeat;
+    }
+
+    .map .locations li.orange a {
+        background: url(../images/locator-bg-01.png) no-repeat;
+    }
+
+    .map .locations li.yellow a {
+        background: url(../images/locator-bg-03.png) no-repeat;
+    }
+
+    .map .click {
+        font-size: 10px;
+        line-height: 12px;
+        right: 2%;
+        bottom: 13px;
+    }
+
+    .map .click a {
+        padding-left: 14px;
+    }
+
+    .map .click a:after {
+        background: url(../images/icon01-tablet.png) no-repeat;
+        width: 10px;
+        height: 12px;
+        top: 2px;
+    }
+
+    .location-details {
+        padding-top: 14px;
+    }
+
+    .location-details .filter {
+        padding-bottom: 5px;
+        margin: 0 0 15px;
+    }
+
+    .location-details .filter .title {
+        font-size: 10px;
+        line-height: 13px;
+        margin: 0 0 7px;
+    }
+
+    .location-details .filter .select-location {
+        margin: 0 -15px;
+    }
+
+    .location-details .filter .select-location li {
+        font-size: 10px;
+        line-height: 13px;
+        padding: 0 15px 10px;
+    }
+
+    .location-details .filter .select-location li.title-one {
+        background: url(../images/locator-bg-01-tablet.png) no-repeat 3px 2px;
+    }
+
+    .location-details .filter .select-location li.title-two {
+        background: url(../images/locator-bg-02-tablet.png) no-repeat 3px 2px;
+    }
+
+    .location-details .filter .select-location li.title-three {
+        background: url(../images/locator-bg-03-tablet.png) no-repeat 3px 2px;
+    }
+
+    .location-panel .panel-group {
+        max-height: 360px !important;
+    }
+
+    .location-panel .panel {
+        padding-bottom: 6px;
+    }
+
+    .location-panel .panel + .panel {
+        padding-top: 6px;
+    }
+
+    .location-panel .panel + .panel:after {
+        left: 24px;
+    }
+
+    .location-panel .panel-title {
+        font-size: 11px;
+        line-height: 14px;
+    }
+
+    .location-panel .panel-title .number {
+        line-height: 15px;
+        font-size: 8px;
+        margin-right: 8px;
+    }
+
+    .location-panel .panel-title .orange {
+        background: url(../images/locator-bg-01.png) no-repeat 0 0;
+        width: 14px;
+        height: 18px;
+    }
+
+    .location-panel .panel-body {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 0 9px 0 23px;
+    }
+
+    .location-panel .panel-body .column-wrap {
+        padding-bottom: 5px;
+    }
+
+    .location-panel .panel-body address {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0 0 5px;
+    }
+
+    .four-columns {
+        padding: 27px 0 7px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .four-columns .container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .four-columns h3 {
+        font-size: 15px;
+        line-height: 20px;
+        margin: 0 0 5px;
+    }
+
+    .four-columns p {
+        margin: 0 0 4px;
+    }
+
+    .four-columns .more a {
+        font-size: 9px;
+        line-height: 11px;
+        padding-right: 7px;
+    }
+
+    .four-columns .more a:after {
+        background: url("../images/sprite.png") no-repeat -21px -3px;
+        width: 4px;
+        height: 7px;
+        overflow: hidden;
+        text-indent: -9999px;
+        display: block;
+    }
+
+    .two-columns {
+        font-size: 10px;
+        line-height: 12px;
+        padding: 38px 0 20px;
+    }
+
+    .two-columns .container {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .two-columns .block {
+        padding-bottom: 15px;
+    }
+
+    .two-columns .img-box {
+        padding-top: 1px;
+    }
+
+    .two-columns h4 {
+        font-size: 15px;
+        line-height: 16px;
+        margin: 0 0 4px;
     }
     
     #footer {
