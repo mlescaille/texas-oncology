@@ -234,22 +234,22 @@ button:hover{
 }
 
 .map .locations li{
-    width: 23px;
     height: auto;
     position: absolute;
+    width: 23px;
 }
 .map .locations li a{
-    display: block;
-    text-align: center;
     color: #333;
+    display: block;
     font-size: 13px;
-    line-height: 29px;  
     font-weight: bold;
+    line-height: 29px;  
+    text-align: center;
 }
 
 .map .locations li a:hover{
-    text-decoration: none;
     opacity: .8;
+    text-decoration: none;
 }
 
 .map .locations li.l1{
@@ -372,15 +372,15 @@ button:hover{
     top: 24.2%;
 }
 .map .locations li.blue a {
-    background: url(images/locator-bg-02-big.png) no-repeat;
+    background: url(../images/locator-bg-02-big.png) no-repeat;
 }
 
 .map .locations li.orange a {
-    background: url(images/locator-bg.png) no-repeat;
+    background: url(../images/locator-bg.png) no-repeat;
 }
 
 .map .locations li.yellow a {
-    background: url(images/locator-bg-03-big.png) no-repeat;
+    background: url(../images/locator-bg-03-big.png) no-repeat;
 }
 
 .map .click{
